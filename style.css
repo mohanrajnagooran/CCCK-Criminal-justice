@@ -118,7 +118,7 @@ body {
 .features {
   margin-top: 45px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 2fr));
   gap: 40px;
 }
 
@@ -1883,7 +1883,7 @@ video::-webkit-media-controls {
 /* hero section book appointment button */
 /* Wrapper */
 .appointment-wrapper {
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
   padding: 60px 16px;
